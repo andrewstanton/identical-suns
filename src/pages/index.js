@@ -60,13 +60,13 @@ const BubbleImage = styled.div`
 
   ${props => props.right && `right: 0`}
   ${props =>
-    props.color &&
-    css`
-      background-color: ${props.color};
+    props.bckColor &&
+    `
+      background-color: ${props.bckColor};
     `}
   ${props =>
     props.back &&
-    css`
+    `
       background-image: url(${props.back});
       background-position: center center;
       background-repeat: no-repeat;
@@ -105,12 +105,12 @@ const SectionWrapper = styled(Wrapper)`
   max-width: 1000px;
 `
 
-const CustomSection = ({ justify, back, color, children, ...props }) => (
+const CustomSection = ({ justify, back, bckColor, children, ...props }) => (
   <Section {...props}>
     <SectionWrapper>
       <BubbleImage
         back={back}
-        color={color}
+        bckColor={bckColor}
         right={justify !== "flex-end" && true}
       />
       <SectionFlex justify={justify}>
@@ -126,7 +126,7 @@ const IndexPage = ({ data }) => {
   return (
     <Page>
       <Header />
-      <CustomSection justify="flex-end" back={wkimg} color={Color.white}>
+      <CustomSection justify="flex-end" back={wkimg} bckColor={Color.white}>
         <h2 className="text-center">WEEK MINDED</h2>
 
         <CdImage>
@@ -161,7 +161,7 @@ const IndexPage = ({ data }) => {
           cdbaby={weekminded.cdbaby}
         />
       </CustomSection>
-      <CustomSection back={isimg} color={Color.black}>
+      <CustomSection back={isimg} bckColor={Color.black}>
         <h2 className="text-center">IDENTICAL SUNS</h2>
 
         <CdImage>
