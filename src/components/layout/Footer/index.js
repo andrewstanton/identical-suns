@@ -25,7 +25,8 @@ export const Footer = () => (
     <MainFooter>
       <Wrapper>
         <AlignCenter>
-          Copyright &copy; {new Date().getFullYear()} - Identical Suns
+          Copyright &copy; {new Date().getFullYear()} - Identical Suns <br />
+          <a href="mailto:identicalsuns@gmail.com">identicalsuns@gmail.com</a>
         </AlignCenter>
       </Wrapper>
     </MainFooter>
