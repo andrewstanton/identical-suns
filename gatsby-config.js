@@ -13,7 +13,8 @@ module.exports = {
         itunes: `https://music.apple.com/us/album/week-minded/1459680202`,
       },
       isuns: {
-        bandcamp: `https://identicalsunsmusic.bandcamp.com/album/identical-suns`,
+        bandcamp:
+          "https://identicalsunsmusic.bandcamp.com/album/identical-suns",
         amazon: `https://www.amazon.com/Identical-Suns/dp/B010QZNMSU`,
         itunes: `https://music.apple.com/us/album/identical-suns/1015001469`,
       },
