@@ -158,7 +158,7 @@ const IndexPage = ({ data }) => {
         <BuyNow
           amazon={weekminded.amazon}
           itunes={weekminded.itunes}
-          cdbaby={weekminded.cdbaby}
+          bandcamp={weekminded.bandcamp}
         />
       </CustomSection>
       <CustomSection back={isimg} bckColor={Color.black}>
@@ -189,7 +189,7 @@ const IndexPage = ({ data }) => {
         <BuyNow
           amazon={isuns.amazon}
           itunes={isuns.itunes}
-          cdbaby={isuns.cdbaby}
+          bandcamp={isuns.bandcamp}
         />
       </CustomSection>
     </Page>
