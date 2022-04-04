@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import cdbabyImg from "../../../images/cdbaby.png"
+import bandcampImg from "../../../images/bandcamp.png"
 import itunesImg from "../../../images/itunes.png"
 import amazonImg from "../../../images/amazon.png"
 
@@ -30,7 +30,7 @@ const StyledBuyNow = styled.div`
 `
 
 export const BuyNow = ({
-  cdbaby = "http://cdbaby.com",
+  bandcamp = "https://bandcamp.com",
   amazon = "http://amazon.com",
   itunes = "http://itunes.com",
   ...props
@@ -39,8 +39,8 @@ export const BuyNow = ({
     <h4>BUY NOW</h4>
     <Grid modifiers="thirds">
       <Col>
-        <a href={cdbaby} target="_blank">
-          <img src={cdbabyImg} alt="CDBaby" />
+        <a href={bandcamp} target="_blank">
+          <img src={bandcampImg} alt="Bandcamp" />
         </a>
       </Col>
       <Col>

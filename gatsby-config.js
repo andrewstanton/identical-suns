@@ -8,12 +8,12 @@ module.exports = {
     },
     links: {
       weekminded: {
-        cdbaby: `https://store.cdbaby.com/cd/identicalsuns2`,
+        bandcamp: `https://identicalsunsmusic.bandcamp.com/album/week-minded`,
         amazon: `https://www.amazon.com/Week-Minded-Identical-Suns/dp/B07QG23FJZ`,
         itunes: `https://music.apple.com/us/album/week-minded/1459680202`,
       },
       isuns: {
-        cdbaby: `https://store.cdbaby.com/cd/identicalsuns`,
+        bandcamp: `https://identicalsunsmusic.bandcamp.com/album/identical-suns`,
         amazon: `https://www.amazon.com/Identical-Suns/dp/B010QZNMSU`,
         itunes: `https://music.apple.com/us/album/identical-suns/1015001469`,
       },
