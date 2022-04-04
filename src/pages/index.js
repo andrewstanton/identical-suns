@@ -205,12 +205,12 @@ export const IndexQuery = graphql`
         links {
           weekminded {
             amazon
-            cdbaby
+            bandcamp
             itunes
           }
           isuns {
             amazon
-            cdbaby
+            bandcamp
             itunes
           }
         }
